@@ -43,6 +43,7 @@ $produto->setDescricao($descricao);
 $atualiza = new ProdutoDAO();
 $atualiza->Update($produto);
 
+//manda para a pagina index
 header("Location: ../index.php");
 
 
